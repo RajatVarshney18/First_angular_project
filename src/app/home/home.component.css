@@ -1,0 +1,94 @@
+.container .jumbotron{
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+}
+@media (min-width: 1200px){
+    .jumbotron{
+        background: url('../../assets/images/jumbotron_1200.jpg') no-repeat;
+        height: 964px;
+        
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .jumbotron{
+        background: url('../../assets/images/jumbotron_992.jpg') no-repeat;
+        height: 675px;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .jumbotron{
+        background: url('../../assets/images/jumbotron_768.jpg') no-repeat;
+        height: 558px;
+        
+    }
+    
+}
+@media (max-width:767px){
+    .jumbotron{
+        margin-top: 30px;
+        padding: 0;
+        
+    }
+    
+}
+#menu-tile, #specials-tile, #extras-tile , #party-tile, #occasions-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #extras-tile:hover , #party-tile:hover, #occasions-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    background: url('../../assets/images/menu.jpg') no-repeat;
+    background-position: center;
+}
+#specials-tile{
+    background: url('../../assets/images/specials.jpg') no-repeat;
+    background-position: center;
+}
+#extras-tile{
+    background: url('../../assets/images/extras.jpg') no-repeat;
+    background-position: center;
+}
+ #home-tiles , #home-tiles-2{
+        margin-top: 25px;
+}
+#party-tile{
+    background: url('../../assets/images/party.jpg') no-repeat;
+    background-position: center;
+}
+#occasions-tile{
+    background: url('../../assets/images/occasions.jpg') no-repeat;
+    background-position: center;
+}
+#menu-tile span, #specials-tile span, #extras-tile span , #party-tile span, #occasions-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+@media(min-width:575px) and (max-width:767px){
+    #extras-tile{
+        width: 360px;
+        margin: 0px auto 25px;
+    }
+}
+@media(max-width:574px){
+    #menu-tile, #specials-tile, #party-tile, #occasions-tile, #extras-tile{
+        width: 360px;
+        margin: 0px auto 25px;
+    }
+}
