@@ -1,0 +1,47 @@
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#hours,#address{
+    line-height: 2;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#testimonials{
+    font-style: italic;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#testimonilas p:nth-child(2){
+    margin-top: 25px;
+}
+hr{
+    border-top: 1px solid #f8f9fa;
+}
+@media (max-width:767px){
+    .panel-footer section{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3){
+        margin-bottom: 0;
+    }
+    .panel-footer section hr{
+        width: 50%;
+    }
+}
