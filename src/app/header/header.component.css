@@ -2,6 +2,7 @@
      background-color:#f6b319;
      height: 90px;
      border-radius: 0px;
+     margin: 0px 0px 0px -5px;
 }
 #logo-img {
     background: url(../../assets/logo.png) no-repeat;
@@ -12,7 +13,7 @@
 .navbar-header {
     position: absolute;
     margin: 0;
-    width: 100%;
+    width: auto;
     height: 90px;
 }
 /* @media (min-width: 768px){
