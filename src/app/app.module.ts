@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import { SingleCategoryComponent } from './single-category/single-category.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuComponent } from './menu/menu.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    SingleCategoryComponent
   ],
   imports: [
     BrowserModule,

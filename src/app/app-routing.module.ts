@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import {HomeComponent} from './home/home.component';
 import {MenuComponent} from './menu/menu.component';
+import {SingleCategoryComponent} from './single-category/single-category.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:'menu',
     component:MenuComponent
+  },
+  {
+    path:'single-category',
+    component:SingleCategoryComponent
   }
 ];
 
