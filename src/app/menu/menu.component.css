@@ -23,7 +23,7 @@
 }
 #menu-categories-title + div{
     margin-bottom: 50px;
-    color:#557c3e;
+    color:#d3d6d0;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;
@@ -38,6 +38,6 @@
     font-size: 30px;
     font-weight: 500;
     font-style: italic;
-    color:#557c3e;
+    color:#e9ebe8;
     text-shadow: 2px 2px 2px #000;
 }
